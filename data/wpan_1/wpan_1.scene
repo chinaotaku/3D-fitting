@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="1000" minOgreVersion="1.7" ogreMaxVersion="2.6.3" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333"/>
+        <colourBackground r="0" g="0" b="0"/>
+        <clipping near="0" far="100000"/>
+    </environment>
+    <nodes>
+        <node name="wpan_1">
+            <position x="0.0056497" y="0.636466" z="-0.00808071"/>
+            <scale x="1" y="1" z="1"/>
+            <rotation qx="1.50996e-007" qy="-8.76187e-022" qz="-4.50003e-015" qw="1"/>
+            <entity name="wpan_1" castShadows="true" receiveShadows="true" meshFile="wpan_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Material#8"/>
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

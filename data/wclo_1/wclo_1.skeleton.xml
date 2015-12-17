@@ -1,0 +1,83 @@
+<skeleton>
+    <bones>
+        <bone id="0" name="0">
+            <position x="-0.00580594" y="-0.119111" z="0.272279" />
+            <rotation angle="1.57082">
+                <axis x="-0.999981" y="0.00436324" z="-0.00436324" />
+            </rotation>
+        </bone>
+        <bone id="1" name="1">
+            <position x="0.00922561" y="0.162292" z="-1.50608e-009" />
+            <rotation angle="0.00292969">
+                <axis x="-2.31028e-018" y="-4.37114e-008" z="-1" />
+            </rotation>
+        </bone>
+        <bone id="2" name="2">
+            <position x="0.00331295" y="0.966319" z="4.53268e-008" />
+            <rotation angle="0.00292969">
+                <axis x="2.42246e-012" y="4.37114e-008" z="1" />
+            </rotation>
+        </bone>
+        <bone id="3" name="4">
+            <position x="0.251227" y="-0.254541" z="1.57324e-009" />
+            <rotation angle="1.5798">
+                <axis x="0" y="-4.37114e-008" z="-1" />
+            </rotation>
+        </bone>
+        <bone id="4" name="5">
+            <position x="0.453978" y="0.406679" z="-1.83744e-007" />
+            <rotation angle="0.77131">
+                <axis x="4.48517e-005" y="-4.52284e-005" z="-1" />
+            </rotation>
+        </bone>
+        <bone id="5" name="6">
+            <position x="0.0381549" y="0.565636" z="-3.85555e-005" />
+            <rotation angle="0.0100306">
+                <axis x="0.00604402" y="-0.00254902" z="-0.999978" />
+            </rotation>
+        </bone>
+        <bone id="6" name="7">
+            <position x="0.00482213" y="0.0953179" z="-1.09369e-005" />
+            <rotation angle="2.1361">
+                <axis x="0.549803" y="0.590609" z="0.590675" />
+            </rotation>
+        </bone>
+        <bone id="7" name="8">
+            <position x="-0.252268" y="-0.262028" z="-1.10426e-007" />
+            <rotation angle="3.11768">
+                <axis x="0.0119574" y="0.707056" z="0.707056" />
+            </rotation>
+        </bone>
+        <bone id="8" name="9">
+            <position x="0.357253" y="-5.19034e-008" z="-0.489661" />
+            <rotation angle="1.70508">
+                <axis x="-0.87399" y="-0.343614" z="-0.343614" />
+            </rotation>
+        </bone>
+        <bone id="9" name="10">
+            <position x="-0.0128388" y="0.53623" z="6.7507e-007" />
+            <rotation angle="0.00284714">
+                <axis x="-0.00146453" y="-0.000501616" z="0.999999" />
+            </rotation>
+        </bone>
+        <bone id="10" name="11">
+            <position x="-0.00479317" y="0.0953194" z="1.12012e-007" />
+            <rotation angle="2.05344">
+                <axis x="0.604987" y="0.563024" z="0.563022" />
+            </rotation>
+        </bone>
+    </bones>
+    <bonehierarchy>
+        <boneparent bone="1" parent="0" />
+        <boneparent bone="2" parent="1" />
+        <boneparent bone="4" parent="2" />
+        <boneparent bone="5" parent="4" />
+        <boneparent bone="6" parent="5" />
+        <boneparent bone="7" parent="6" />
+        <boneparent bone="8" parent="2" />
+        <boneparent bone="9" parent="8" />
+        <boneparent bone="10" parent="9" />
+        <boneparent bone="11" parent="10" />
+    </bonehierarchy>
+    <animations />
+</skeleton>
